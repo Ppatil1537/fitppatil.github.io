@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fitness Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+      <section>
+      	<header>
+      		<a href="#" class="logo">Fitness</a>
+      		<div class="toggleMenu" onclick="toggleMenu()"></div>
+      		<ul class="navigation">
+      			<li><a href="#">Home</a></li>
+      			<li><a href="#">About</a></li>
+      			<li><a href="#">Trainers</a></li>
+      			<li><a href="#">Blog</a></li>
+      			<li><a href="#">Contact</a></li>
+      		</ul>
+      	</header>
+      	<div class="content">
+      		<div class="contentBx">
+      			<h2>Build perfect Body </br>
+      			with clean Mind</h2>
+      			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      			<a href="#">Get started</a>
+      		</div>
+      	</div>
+      	<ul class="sci">
+      		<li><a href="#"><img src="C:\Users\DELL\Downloads\facebook.png"></a></li>
+      		<li><a href="#"><img src="C:\Users\DELL\Downloads\twitter.png"></a></li>
+      		<li><a href="#"><img src="C:\Users\DELL\Downloads\instagram.png"></a></li>
+      	</ul>
+      </section>
+      <script type="text/javascript">
+      	function toggleMenu() {
+      		const toggleMenu = document.querySelector('.toggleMenu');
+      		toggleMenu.classlist.toggle('active')
+      	}
+      </script>
+</body>
+</html>
